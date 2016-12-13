@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:paddingRight="@dimen/material_very_large"
+    android:paddingLeft="@dimen/material_very_large"
+    android:paddingBottom="@dimen/material_very_large"
+    android:paddingTop="@dimen/material_normal">
+
+    <TextView
+        android:text="@string/today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_day"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="@dimen/material_normal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:text="Max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_max"
+                android:textSize="70sp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:text="Min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_min"
+                android:textSize="30sp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                app:srcCompat="@drawable/sun"
+                android:id="@+id/img_weather"
+                android:contentDescription="@string/weather"
+                android:layout_height="120dp"
+                android:layout_width="120dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
