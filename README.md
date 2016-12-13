@@ -6,5 +6,4 @@ Exibe o clima de Belo Horizonte utilizando a API do OpenWeatherMap
 
 Slides: https://goo.gl/jzOkZq
 
-Screenshot:
 <img src="https://github.com/Rafaellg/android-forecast/blob/master/imgs/screenshot_13_12_2016.png?raw=true" width="300"/>
